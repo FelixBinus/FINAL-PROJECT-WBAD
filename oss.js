@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
       
       localStorage.setItem("loggedInUser", JSON.stringify(user));
       alert("Login berhasil!");
-      window.location.href = "../index.html"; 
+      window.location.href = "index.html"; 
     });
   }
 });
